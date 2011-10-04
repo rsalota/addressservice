@@ -1,0 +1,40 @@
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-28 23:57:17
+project --topLevelPackage com.openwebsys.identity
+persistence setup --provider HIBERNATE --database MYSQL
+// [failed] entity --class ~.domain.Identity
+entity --class ~.domain.Identities
+field string --fieldName address1 --notNull --sizeMin 256
+web mvc setup
+web mvc all --package ~.web
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-28 23:59:21
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-29 00:09:28
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-29 00:09:37
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-29 00:09:56
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-29 00:10:09
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-29 00:10:12
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-29 00:10:19
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-29 00:10:23
+// [failed] entity --class ~.domain.IdAddress
+// [failed] web mvc all --package ~.web
+hint
+help
+// [failed] web mvc all --package ~.web
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-29 00:12:04
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-29 00:12:34
+web mvc all --package ~.web
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-29 00:12:44
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-29 00:16:20
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-29 00:16:25
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-29 00:17:48
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-29 00:17:53
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log opened at 2011-09-29 00:19:08
+exit
+// Spring Roo 1.1.4.RELEASE [rev f787ce7] log closed at 2011-09-29 00:19:21

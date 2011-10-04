@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_openwebsys_identity_domain_IdAddress" items="${idaddresses}" z="3cBUCylYUmNPkyE1kM4o4BIK9oM=">
+        <table:table data="${idaddresses}" id="l_com_openwebsys_identity_domain_IdAddress" path="/idaddresses" z="LEBtvgAsZ1PzQZPLGDoF2HQlwTc=">
+            <table:column id="c_com_openwebsys_identity_domain_IdAddress_address1" property="address1" z="I2dhLnZW2/dXRRjBOPAgL80i/4U="/>
+        </table:table>
+    </page:list>
+</div>
